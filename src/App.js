@@ -2,12 +2,14 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Ziya from "./components/Ziya";
 import Contact from "./components/Contact";
-import About from "./components/About"; // путь правильный?
+import About from "./components/About"; 
+import Myproject from "./components/Myproject";
+import Myblog from "./components/Myblog";
 import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/My-portfolio">
       <div className="App">
         <Routes>
           <Route
@@ -31,6 +33,9 @@ function App() {
           />
           <Route path="/contact" element={<Contact />} />
           <Route path="/Aboutme" element={<About />} />
+          <Route path="/projects" element={<Myproject />} />
+          <Route path="/Myblog" element={<Myblog />} />
+
         </Routes>
       </div>
     </Router>

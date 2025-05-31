@@ -5,9 +5,9 @@ function Ziya() {
   const navigate = useNavigate();
 
   const items = [
-    { icon: "blogging.png", label: "My project" },
-    { icon: "confirmation.png", label: "About me", link:"/Aboutme"},
-    { icon: "folder (1).png", label: "My blog" },
+    { icon: "blogging.png", label: "My project" , link:"/projects"},
+    { icon: "confirmation.png", label: "About me", link: "/Aboutme" },
+    { icon: "folder (1).png", label: "My blog" , link:"/Myblog" },
     { icon: "man.png", label: "Contact me", link: "/contact" },
   ];
 
@@ -20,7 +20,11 @@ function Ziya() {
           onClick={() => item.link && navigate(item.link)}
           style={{ cursor: item.link ? "pointer" : "default" }}
         >
-          <img className="img-icon" src={`/icons/${item.icon}`} alt={`icon-${index}`} />
+          <img
+            className="img-icon"
+            src={`${process.env.PUBLIC_URL}/icons/${item.icon}`}
+            alt={`icon-${index}`}
+          />
           <p>{item.label}</p>
         </div>
       ))}
