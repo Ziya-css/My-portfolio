@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Ziya from "./components/Ziya";
 import Contact from "./components/Contact";
 import About from "./components/About"; 
@@ -9,7 +10,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename="/My-portfolio">
+    <Router>
       <div className="App">
         <Routes>
           <Route
@@ -29,6 +30,7 @@ function App() {
                 </div>
                 <Ziya />
               </header>
+              
             }
           />
           <Route path="/contact" element={<Contact />} />

@@ -5,7 +5,7 @@ function Ziya() {
   const navigate = useNavigate();
 
   const items = [
-    { icon: "blogging.png", label: "My project" , link:"/projects"},
+    { icon: "blogging.png", label: "My projects" , link:"/projects"},
     { icon: "confirmation.png", label: "About me", link: "/Aboutme" },
     { icon: "folder (1).png", label: "My blog" , link:"/Myblog" },
     { icon: "man.png", label: "Contact me", link: "/contact" },

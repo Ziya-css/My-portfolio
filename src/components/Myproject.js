@@ -8,7 +8,7 @@ function Myproject() {
   const projects = [
     {
       title: "Сайт магазин",
-      link:"https://precious-marshmallow-fc2ba3.netlify.app/"
+      link:"https://Dentaluxacademy.com"
     },
     {
       title: "Сайт визитка",
@@ -20,7 +20,7 @@ function Myproject() {
     <div className="myproject-page">
       <div className="contact-buttons">
         <button onClick={() => navigate("/")} className="return-btn-global">
-          ⬅ Вернуться на главную
+          ⬅ Go back
         </button>
       </div>
 

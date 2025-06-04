@@ -11,21 +11,18 @@ html, body {
   height: 100%;
   background: #000;
   overflow: auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
-
-
-
-
 
 
 .social-links {
   position: absolute;
-  left:1050px;
+  left:140px;
   transform: translateY(-50%);
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   gap: 15px;
+  bottom: 10px;
 }
 
 .social-links a {
@@ -46,14 +43,42 @@ html, body {
 }
 
 .Bio {
-  margin-top: -120px;
+  position: relative;
   max-width: 600px;
+  right: 450px;
+  left: -25rem;
+  top: -20px;
+}
+.line {
+  position: relative;
+  top: 100px;
+  border: none;
+  height: 1px;
+  background-color: gray;
+  margin: 10px 0;
+  width: 70rem;
 }
 
+.ZZ{
+  position: relative;
+  top: 7rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-size: 20px !important;
+}
+.LL{
+  position: relative;
+  left: 50rem;
+  top: -7rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px !important;
+}
 .Bio h1 {
-  font-size: 60px;
-  font-weight: 600;
-  margin-bottom: 20px;
+  position: relative;
+  top: 5rem;
+  font-size: 40px !important;
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .Bio p {
@@ -80,4 +105,161 @@ html, body {
 
 .return-btn-global:hover {
   background-color:gold;
+}
+.Img-container{
+  position: relative;
+  margin-top: -120px;
+  right: 20rem;
+}
+.Img-container img{
+width:300px;
+height: 300px;
+border-radius: 250px;
+right: 4rem;
+position: relative;
+}
+
+/* media */
+@media screen and (max-width: 767px) {
+  .contact-buttons {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Img-container {
+    position: static;
+    margin: 20px 0;
+    right: 0;
+  }
+
+  .Img-container img {
+    width: 200px;
+    height: 200px;
+    right: 0;
+    position: static;
+  }
+
+  .Bio {
+    position: static;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    margin: 20px 0;
+  }
+
+  .Bio h1 {
+    position: static;
+    top: 0;
+    font-size: 28px !important;
+    margin-bottom: 20px;
+  }
+
+  .line {
+    position: static;
+    top: 0;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .ZZ {
+    position: static;
+    top: 0;
+    font-size: 16px !important;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .LL {
+    position: static;
+    left: 0;
+    top: 0;
+    font-size: 16px !important;
+    text-align: left;
+  }
+
+  .social-links {
+    position: static;
+    left: 0;
+    bottom: 0;
+    transform: none;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+  .social-links a {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  .return-btn-global {
+    top: 10px;
+    left: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+
+/* MOBILE PORTRAIT (320px - 480px) */
+@media screen and (max-width: 480px) {
+  .contact-buttons {
+    padding: 5px;
+  }
+
+  .Img-container img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .Bio h1 {
+    font-size: 24px !important;
+  }
+
+  .ZZ, .LL {
+    font-size: 14px !important;
+    line-height: 1.5;
+  }
+
+  .social-links {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .social-links a {
+    font-size: 16px;
+    padding: 6px;
+  }
+
+  .return-btn-global {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
+
+/* EXTRA SMALL MOBILE (max-width: 360px) */
+@media screen and (max-width: 360px) {
+  .contact-buttons {
+    padding: 5px;
+  }
+
+  .Img-container img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .Bio h1 {
+    font-size: 20px !important;
+  }
+
+  .ZZ, .LL {
+    font-size: 13px !important;
+  }
+
+  .social-links a {
+    font-size: 14px;
+    padding: 5px;
+  }
 }

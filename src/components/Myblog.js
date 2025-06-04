@@ -66,6 +66,7 @@ function Myblog() {
   };
 
   return (
+ 
     <main className="blog-slider-main">
       <ul className="slider">
         {currentSlides.map((slide, index) => (
@@ -96,8 +97,11 @@ function Myblog() {
       </nav>
        <div className="contact-buttons">
         <button onClick={() => navigate("/")} className="return-btn-global">
-          ⬅ Вернуться на главную
+          ⬅ Go back
         </button>
+      </div>
+      <div className='Blo'>
+        <h1>Hello in my Blog </h1>
       </div>
     </main>
   );

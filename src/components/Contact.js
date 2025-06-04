@@ -40,7 +40,7 @@ function Contact() {
 
       <div className="contact-buttons">
         <button onClick={() => navigate("/")} className="return-btn-global">
-          ⬅ Вернуться на главную
+          ⬅ Go back
         </button>
       </div>
 
