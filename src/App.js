@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 import About from "./components/About"; 
 import Myproject from "./components/Myproject";
 import Myblog from "./components/Myblog";
-import "./App.css";
+import "./components/Ziya.css";
 
 function App() {
   return (
