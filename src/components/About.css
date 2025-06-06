@@ -212,14 +212,15 @@ position: relative;
   .Img-container img {
     width: 150px;
     height: 150px;
+    margin-top: 600px;
   }
 
   .Bio h1 {
-    font-size: 24px !important;
+    font-size: 30px !important;
   }
 
   .ZZ, .LL {
-    font-size: 14px !important;
+    font-size: 16px !important;
     line-height: 1.5;
   }
 
@@ -246,20 +247,43 @@ position: relative;
   }
 
   .Img-container img {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
+    margin-top: 700px;
   }
 
   .Bio h1 {
-    font-size: 20px !important;
+    font-size: 34px !important;
   }
 
   .ZZ, .LL {
-    font-size: 13px !important;
+    font-size: 16px !important;
   }
 
   .social-links a {
-    font-size: 14px;
+    font-size: 26px !important;
+  }
+}
+@media screen and (max-width: 375px) {
+  .contact-buttons {
     padding: 5px;
+  }
+
+  .Img-container img {
+    width: 200px;
+    height: 200px;
+    margin-top: 700px;
+  }
+
+  .Bio h1 {
+    font-size: 34px !important;
+  }
+
+  .ZZ, .LL {
+    font-size: 16px !important;
+  }
+
+  .social-links a {
+    font-size: 26px !important;
   }
 }

@@ -97,3 +97,106 @@ html, body {
 .return-btn-global:hover {
   background-color: #005fcc;
 }
+
+@media screen and (max-width: 425px) {
+  .contact-container {
+    margin: 10px;
+    padding: 12px;
+    border-radius: 15px;
+    margin-top: 100px;
+  }
+  
+  .contact-title {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  
+  .contact-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-map iframe {
+    height: 280px;
+    border-radius: 10px;
+  }
+  
+  .contact-info {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  
+  .return-btn-global {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+
+/* Смартфоны (375px) */
+@media screen and (max-width: 375px) {
+  .contact-container {
+    margin: 8px;
+    padding:10px;
+    margin-top: 80px;
+  }
+  
+  .contact-title {
+    font-size: 26px;
+  }
+  
+  .contact-subtitle {
+    font-size: 15px;
+    margin-bottom: 18px;
+  }
+  
+  .contact-map iframe {
+    height: 250px;
+  }
+  
+  .contact-info {
+    font-size: 14px;
+  }
+  
+  .contact-info p {
+    margin: 6px 0;
+  }
+}
+
+/* Смартфоны (320px) */
+@media screen and (max-width: 320px) {
+  .contact-container {
+    margin: -50px;
+    padding: 8px;
+    border-radius: 12px;
+    margin-top: 20px;
+  }
+  
+  .contact-title {
+    font-size: 24px;
+    margin-bottom: 6px;
+  }
+  
+  .contact-subtitle {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-map iframe {
+    height: 220px;
+    border-radius: 8px;
+  }
+  
+  .contact-info {
+    font-size: 13px;
+    margin-top: 12px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .return-btn-global {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+}

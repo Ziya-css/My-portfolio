@@ -20,11 +20,8 @@ function App() {
                 <div className="left-section">
                   <h1>Hello 👋🏼</h1>
                   <h2>I'm Ziya Abdullayev</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Veniam sit voluptatem asperiores doloribus aliquid pariatur
-                    consectetur fuga eius nemo. Mollitia ut at amet ipsum
-                    nostrum saepe debitis voluptatem architecto odit.
+                  <p>Thank you for visiting my website!
+If you'd like to learn more, feel free to check out the About page.
                   </p>
                   <button>Download Resume</button>
                 </div>
